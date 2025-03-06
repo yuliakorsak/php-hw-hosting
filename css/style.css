@@ -1,0 +1,54 @@
+body {
+  padding: 10px;
+  margin: 0;
+  font-family: Noto Sans, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.dev {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+}
+
+.dev p {
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.welcome {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.exit {
+  color: inherit;
+}
+
+.exit:hover {
+  color: #ff0000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: max-content;
+  padding: 20px 10px;
+  border: 1px solid #909090;
+  border-radius: 10px;
+  background-color: #eef7ff;
+}
+
+.form button {
+  align-self: flex-end;
+  width: 100px;
+  padding: 5px 2px;
+}
