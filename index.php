@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,6 @@
   <p class="title">Домашнее задание к занятию «3.3. Хостинг»</p>
 </div>
 <?php
-session_start();
 if(isset($_SESSION['username'])) {
     echo '<p class="welcome">Привет, '. $_SESSION['username'] .'!</p>' . PHP_EOL;
     echo '<a class="exit" href="exit.php">Выйти</a>';
