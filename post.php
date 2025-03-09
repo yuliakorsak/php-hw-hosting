@@ -1,4 +1,6 @@
 <?php
 session_start();
-$_SESSION['username'] = $_POST['username'];
+if(isset($_POST['username']) && !empty(trim($_POST['username']))) {
+    $_SESSION['username'] = trim($_POST['username']);
+}
 header('Location: .');
